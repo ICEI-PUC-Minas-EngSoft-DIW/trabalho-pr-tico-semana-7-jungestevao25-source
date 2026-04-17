@@ -4,8 +4,8 @@ Nessa atividade, vamos dar os primeiros passos com JavaScript, praticando com a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Estêvão de Castro Jung
+- Matricula: 910950
 
 ## Print do console do navegador
 
