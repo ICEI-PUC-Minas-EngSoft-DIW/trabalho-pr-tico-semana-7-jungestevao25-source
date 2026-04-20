@@ -45,7 +45,11 @@ if (despesas > renda){
     let psobra = ((sobra / renda) * 100);
     if (psobra >= 30) {
         console.log(`✅ Ótimo: boa margem de sobra.`);
+        alert(`✅ Ótimo: boa margem de sobra.`)
     } else {
         console.log(`🙂 Ok: dá para melhorar a sobra.`)
+        alert(`🙂 Ok: dá para melhorar a sobra.`)
     }
 }
+alert(`- Nome de Usuário: ${nome} \n- Renda: R$${Number(renda).toFixed(2)} \n- Total de Despesas: R$${Number(despesas).toFixed(2)}
+\n Valor Final: R$${(Number(renda).toFixed(2)-Number(despesas).toFixed(2)).toFixed(2)} `)
